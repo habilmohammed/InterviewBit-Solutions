@@ -1,8 +1,8 @@
 package com.interviewbit.habilmohammed.arrays.model;
 
 public class Interval {
-  int start;
-  int end;
+  public int start;
+  public int end;
   
   public int getStart() {
     return start;
