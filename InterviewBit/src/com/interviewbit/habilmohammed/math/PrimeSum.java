@@ -49,7 +49,7 @@ public class PrimeSum {
   private static ArrayList<Integer> sieve(int n) {
     // TODO Auto-generated method stub
     ArrayList<Integer> primes = new ArrayList<Integer>();
-    
+   
     for (int i=2;i<=n;i++) 
       primes.add(i);
     for (int i=0;i<primes.size();i++) {
@@ -77,7 +77,5 @@ public class PrimeSum {
     }
     return true;
   }
-
-
 
 }
